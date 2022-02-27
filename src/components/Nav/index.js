@@ -1,7 +1,7 @@
 import React from "react";
 import { NavMenu } from "./navMenu";
 
-const Nav = () => {
+const Nav = ({options, selected, setSelection}) => {
   return (
     <div>
       <div className=" justify-content-center header">
@@ -13,7 +13,10 @@ const Nav = () => {
             {NavMenu.map((item, i) => {
               return (
                 <li key={i} className={item.clName}>
-                  <a className="nav-link active" href={item.url}>
+                  <a className="nav-link active" href={item.url} onClick={()=>{
+                      {item.url && setSelection(true) && setSelection(false)}
+                      // can go to projects but cant come back tomhome
+                  }}>
                     {item.title}
                   </a>
                 </li>
