@@ -39,12 +39,12 @@ function App() {
         ) : (
           <>
           <Projects />
-          < Contact />
           </>
         )
-        }
+      }
 
    </main>
+      < Contact />
    <Footer />
     </div>
   );

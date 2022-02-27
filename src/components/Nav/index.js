@@ -14,7 +14,7 @@ const Nav = ({options, selected, setSelection}) => {
               return (
                 <li key={i} className={item.clName}>
                   <a className="nav-link active" href={item.url} onClick={()=>{
-                      {item.url && setSelection(true) && setSelection(false)}
+                      item.url && setSelection(true)
                       // can go to projects but cant come back tomhome
                   }}>
                     {item.title}
