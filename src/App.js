@@ -1,5 +1,5 @@
 import Footer from './components/Footer';
-import Header from './components/Header'
+import Header from './components/About'
 import Nav from './components/Nav'
 import Projects from './components/Projects';
 
@@ -8,8 +8,8 @@ function App() {
     <div className="App">
    <Nav />
    <Header />
-   <Footer />
    <Projects />
+   <Footer />
     </div>
   );
 }

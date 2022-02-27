@@ -9,7 +9,7 @@ const Footer = () => {
 
           <a className=" ms-3 bi bi-github" href="#"></a>
           <a className="ms-3 bi bi-envelope" href="#"></a>
-          <a className="ms-3 bi bi-linkedin" href="#"></a>
+          <a className="ms-3 bi bi-linkedin " href="#"></a>
             </div>
         </footer>
       </div>
