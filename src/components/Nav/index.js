@@ -1,14 +1,22 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { NavMenu } from "./navMenu";
 
-const Nav = ({options, selected, setSelection}) => {
+
+
+
+const Nav = ({ selected, setSelection}) => {
+console.log('~~~~',NavMenu.title)
+  useEffect(() => {
+    document.title = "Portfolio"
+  }, [])
+
   return (
-    <div>
-      <div className=" justify-content-center header">
+    <div className="sticky-top ">
+      <div className=" justify-content-center header ">
         <h1 className=" text-center">
           Muktar Ahmed
         </h1>
-        <nav>
+        <nav className="">
           <ul className="nav justify-content-center">
             {NavMenu.map((item, i) => {
               return (

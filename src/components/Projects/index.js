@@ -1,5 +1,4 @@
 import React from "react";
-import PasswordImage from "../../assets/images/small/password.jpg";
 // import WeatherApp from '../../assets/images/small/weather.jpg'
 import { ProjectMenu } from "./projectsMenu";
 
@@ -10,9 +9,9 @@ const Projects = () => {
         <div className="row">
           {ProjectMenu.map((project, i) => {
             return (
-              <div className="col-6 card" key={i}>
+              <div className="col-sm-12 col-md-6" key={project.name}>
                 <img 
-                  
+                  className=""
                   src={require(`../../assets/images/small/${project.image}.jpg`)}
                   width={"70%"}
                   height={"100%"}
