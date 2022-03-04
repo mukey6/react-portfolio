@@ -4,7 +4,7 @@ import { ProjectMenu } from "./projectsMenu";
 
 const Projects = () => {
   return (
-    <div id="projects" className="bg-dark">
+    <div id="projects" className="">
       <div className="container">
         <div className="mt-5 ">
           <h2 className="text-center text-white">Projects </h2>
@@ -13,30 +13,30 @@ const Projects = () => {
             and effort into
           </h4>
         </div>
-        <div className="row mt-5 bg-dark">
+        <div className="row mt-5 ">
           {ProjectMenu.map((project, i) => {
             return (
               <div
-                className="col-sm-6 col-md-6 card border-0 mt-1 bg-dark"
+                className="col-sm-6 col-md-6 card border-0 mt-3 bg-dark"
                 key={project.name}
               >
                 <img
                   className=""
                   src={require(`../../assets/images/small/${project.image}.jpg`)}
                   width={"70%"}
-                  height={"100%"}
+                  height={"60%"}
                   alt={project.name}
                 ></img>
                 <div className="card-body">
                   <p className="card-text">{project.description}</p>
                   <a href={project.url} className="btn btn-primary me-2 ms-3">
-                    View
+                    <i className="bi bi-link">View</i>
                   </a>
                   <a
                     href={project.github}
                     className="btn btn-primary ms-4 me-2"
                   >
-                    Github
+                    <i className="bi bi-github">Github</i>
                   </a>
                 </div>
               </div>

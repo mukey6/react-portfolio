@@ -5,7 +5,7 @@ import { NavMenu } from "./navMenu";
 
 
 const Nav = ({ selected, setSelection}) => {
-console.log('~~~~',NavMenu.title)
+
   useEffect(() => {
     document.title = "Portfolio"
   }, [])
@@ -22,7 +22,7 @@ console.log('~~~~',NavMenu.title)
               return (
                 <li key={i} className={item.clName}>
                   <a className="nav-link active" href={item.url} onClick={()=>{
-                      console.log(item.url)
+
                       setSelection(item.url)
                       // can go to projects but cant come back tomhome
                   }}>
