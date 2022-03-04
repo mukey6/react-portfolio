@@ -8,10 +8,18 @@ const Footer = () => {
             <div className="col-md-4 justify-content-center  d-flex">
 
           <a href="#">
-            <i className=" ms-3 bi bi-github bi-lg " ></i>
+            <i className=" ms-3 bi bi-github  footer" ></i>
           </a>
-          <a className="ms-3 bi bi-envelope" href="#"></a>
-          <a className="ms-3 bi bi-linkedin " href="#"></a>
+          <a href="#">
+            <i className="ms-3 bi bi-envelope footer" >
+
+            </i>
+          </a>
+          <a href="#">
+            <i  className="ms-3 bi bi-linkedin footer ">
+
+            </i>
+          </a>
             </div>
         </footer>
       </div>

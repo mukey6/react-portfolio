@@ -1,3 +1,7 @@
-footer{
-    size: 100px;
+.footer{
+    font-size: 50px;
 }
+
+/* .bi-github,.bi-envelope,.bi-linkedin{
+    font-size: 50px;
+} */
