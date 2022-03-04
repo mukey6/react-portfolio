@@ -4,19 +4,41 @@ import { ProjectMenu } from "./projectsMenu";
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id="projects" className="bg-dark">
       <div className="container">
-        <div className="row">
+        <div className="mt-5 ">
+          <h2 className="text-center text-white">Projects </h2>
+          <h4 className="text-center text-white">
+            Here are some of my works that i have contributed my time, skills,
+            and effort into
+          </h4>
+        </div>
+        <div className="row mt-5 bg-dark">
           {ProjectMenu.map((project, i) => {
             return (
-              <div className="col-sm-12 col-md-6" key={project.name}>
-                <img 
+              <div
+                className="col-sm-6 col-md-6 card border-0 mt-1 bg-dark"
+                key={project.name}
+              >
+                <img
                   className=""
                   src={require(`../../assets/images/small/${project.image}.jpg`)}
                   width={"70%"}
                   height={"100%"}
                   alt={project.name}
                 ></img>
+                <div className="card-body">
+                  <p className="card-text">{project.description}</p>
+                  <a href={project.url} className="btn btn-primary me-2 ms-3">
+                    View
+                  </a>
+                  <a
+                    href={project.github}
+                    className="btn btn-primary ms-4 me-2"
+                  >
+                    Github
+                  </a>
+                </div>
               </div>
             );
           })}
@@ -28,23 +50,10 @@ const Projects = () => {
 
 export default Projects;
 
-// <div className="row">
-// <div className="col">
-//   <img src={PasswordImage} width={"50%"}></img>
-//   Projects
-// </div>
-// <div className="col">
-//   <img src={PasswordImage} width={"50%"}></img>
-//   Projects
-// </div>
-// </div>
-// <div className="row">
-// <div className="col">
-//   <img src={PasswordImage} width={"50%"}></img>
-//   Projects
-// </div>
-// <div className="col">
-//   <img src={PasswordImage} width={"50%"}></img>
-//   Projects
-// </div>
-// </div>
+<div className="">
+  <h2>Projects </h2>
+  <h4>
+    Here are some of my works that i have put up my time, skills, and effort
+    into .
+  </h4>
+</div>;
