@@ -4,5 +4,10 @@ font-family: cursive;
 
 p{
     font-family: 'Times New Roman', Times, serif;
-color: #66ff;
+color: white;
 }
+
+/* .img{
+    background-image: url("../../assets/images/background/background.jpg");
+    background-size: cover;
+} */

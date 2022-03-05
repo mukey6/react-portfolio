@@ -1,14 +1,22 @@
 import React from "react";
 import HeaderImage from "../../assets/images/small/me.jpg";
 import Typical from "react-typical";
-// import image from "../../assets/images/background/background.jpg";
+import image from "../../assets/images/background/background.jpg";
 import './about.css'
 const Header = () => {
   return (
     <div id="about" className="container" >
- 
+ <Typical
+className="fs-1 d-flex justify-content-center img-fluid"
+steps={["MUKTAR AHMED", 3000, "A FULL STACK DEV!", 2000]}
+loop={Infinity}
+wrapper="p"
+/>
+ <div className="col" >
+<img className="img-fluid" src={image} ></img>
+ </div>
       <div
-        className="d-flex justify-content-center row  about-me "
+        className="d-flex justify-content-center row  about-me mt-5"
         // style={{
         //   backgroundImage: `url(${image})`,
         // }}
@@ -21,12 +29,6 @@ const Header = () => {
           style={{ width: "30%" }}
           alt="cover"
         />
-             <Typical
-        className="text-center d-flex align-items-center  "
-        steps={["HI MY NAME IS MUKTAR AHMED", 3000, "A FULL STACK DEV!", 2000]}
-        loop={Infinity}
-        wrapper="p"
-      />
         </div>
 
 

@@ -34,7 +34,7 @@ const Projects = () => {
                   </a>
                   <a
                     href={project.github}
-                    className="btn btn-primary ms-4 me-2"
+                    className="btn btn-secondary ms-4 me-2"
                   >
                     <i className="bi bi-github">Github</i>
                   </a>
