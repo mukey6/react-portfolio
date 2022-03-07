@@ -1,17 +1,17 @@
 export   const NavMenu = [
         {
             title: 'Home',
-            url: "#about",
+            url: "/",
             clName: 'nav-item'
         },
         {
             title: 'Projects',
-            url: "#projects",
+            url: "/projects",
             clName: 'nav-item'
         },
         {
             title: 'Contact Me',
-            url: "#contact",
+            url: "/contact",
             clName: 'nav-item'
         }
     ]

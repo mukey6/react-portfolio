@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { NavMenu } from "./navMenu";
 
 const Nav = ({ selected, setSelection }) => {
@@ -9,21 +10,21 @@ const Nav = ({ selected, setSelection }) => {
   return (
     <div className="sticky-top ">
       <div className=" justify-content-center header ">
-        <h1 className=" text-center">Muktar Ahmed</h1>
+        {/* <h1 className=" text-center">Muktar Ahmed</h1> */}
         <nav className="">
           <ul className="nav justify-content-center">
             {NavMenu.map((item, i) => {
               return (
                 <li key={i} className={item.clName}>
-                  <a
+                  <Link
                     className="nav-link active"
-                    href={item.url}
+                    to={item.url}
                     onClick={() => {
                       setSelection(item.url);
                     }}
                   >
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
