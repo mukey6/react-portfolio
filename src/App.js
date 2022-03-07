@@ -25,7 +25,7 @@ function App() {
           {/* <Header/> */}
           <div className="container">
             <Switch>
-              <Route exact path="/" component={Header} />
+              <Route exact path="/react-portfolio" component={Header} />
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/contact" component={Contact} />
 

@@ -1,7 +1,7 @@
 export   const NavMenu = [
         {
             title: 'Home',
-            url: "/",
+            url: "/react-portfolio",
             clName: 'nav-item'
         },
         {
