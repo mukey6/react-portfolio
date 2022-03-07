@@ -30,10 +30,20 @@ export const ProjectMenu = [
         image:"budget",
         description:"Track your budget with expenses and payments"
     },
-    // {
-    //     name:"Password Generated",
-    //     url:"git",
-    //     image:"password"
-    // },
+    {
+        name:"Deep-Thoughts",
+        url:"https://social-deep-thoughts.herokuapp.com/",
+        github:"https://github.com/mukey6/deep-thoughts",
+        image:"thought",
+        description:"Social media app to create thoughts, follow friends and react to thoughts "
+    },
+    {
+        name:"Daily Planner",
+        url:"https://mukey6.github.io/Daily-Planner/",
+        github:"https://github.com/mukey6/Daily-Planner",
+        image:"planner",
+        description:"Daily planner to keep track of your day "
+    },
     
 ]
+
