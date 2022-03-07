@@ -13,24 +13,22 @@ function App() {
   // const [currentPage, setCurrentPage]=useState(navOptions[0])
   const [selected, setSelection] = useState(false);
   // console.log(window.location)
-  useEffect(() => {
-    setSelection(window.location.hash);
-  }, []);
+  // useEffect(() => {
+  //   setSelection(window.location.hash);
+  // }, []);
 
   return (
     <div className="App bg-dark">
       <Router>
         <Nav selected={selected} setSelection={setSelection} />
         <main>
-          {/* {getPage(selected)} */}
-          <Header/>
+          {/* <Header/> */}
           <div className="container">
             <Switch>
               <Route exact path="/" component={Header} />
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/contact" component={Contact} />
 
-              {/* <Route component={NoMatch} /> */}
             </Switch>
           </div>{" "}
         </main>
