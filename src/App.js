@@ -23,6 +23,7 @@ function App() {
         <Nav selected={selected} setSelection={setSelection} />
         <main>
           {/* {getPage(selected)} */}
+          <Header/>
           <div className="container">
             <Switch>
               <Route exact path="/" component={Header} />
