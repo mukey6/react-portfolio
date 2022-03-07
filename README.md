@@ -6,7 +6,6 @@ Personal portfolio created with React.js
 ## Table of Contents
 - [Technology Used](#technology-used)
 - [Contact](#contact)
-- [Links](#links)
 - [License](#license)
 
 
