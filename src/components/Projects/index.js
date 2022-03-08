@@ -1,5 +1,4 @@
 import React from "react";
-// import WeatherApp from '../../assets/images/small/weather.jpg'
 import { ProjectMenu } from "./projectsMenu";
 
 const Projects = () => {
@@ -49,11 +48,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-<div className="">
-  <h2>Projects </h2>
-  <h4>
-    Here are some of my works that i have put up my time, skills, and effort
-    into .
-  </h4>
-</div>;

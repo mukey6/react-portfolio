@@ -10,7 +10,6 @@ const Nav = ({ selected, setSelection }) => {
   return (
     <div className="sticky-top ">
       <div className=" justify-content-center header ">
-        {/* <h1 className=" text-center">Muktar Ahmed</h1> */}
         <nav className="">
           <ul className="nav justify-content-center">
             {NavMenu.map((item, i) => {
