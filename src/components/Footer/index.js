@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css"
 const Footer = () => {
   return (
-    <div>
+    <div className="footer-length">
       <div>
         <footer className="d-flex flex-wrap justify-content-center">
             <div className="col-md-4 justify-content-center  d-flex">

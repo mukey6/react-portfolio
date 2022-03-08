@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Resume from "./components/Resume";
-
+import './App.css'
 // import { NavMenu } from './components/Nav/navMenu';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
     <div className="App bg-dark">
       <Router>
         <Nav selected={selected} setSelection={setSelection} />
-        <main className="">
+        <main>
           {/* <Header/> */}
           <div className="container">
             <Switch>
