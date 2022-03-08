@@ -13,10 +13,5 @@ export   const NavMenu = [
             title: 'Contact Me',
             url: "/contact",
             clName: 'nav-item'
-        },
-        {
-            title: 'Resume',
-            url: "/resume",
-            clName: 'nav-item'
         }
     ]

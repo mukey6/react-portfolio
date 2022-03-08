@@ -28,6 +28,11 @@ const Nav = ({ selected, setSelection }) => {
                 </li>
               );
             })}
+            <li className="nav-item">
+            <a className="nav-link active" href="https://drive.google.com/file/d/1GSnyQs44bKMHHdkayedukOBeY8u_oPL9/view?usp=sharing" target="_blank">
+            Resume
+            </a>
+            </li>
           </ul>
         </nav>
       </div>
