@@ -8,11 +8,11 @@ export const ProjectMenu = [
 
     },
     {
-        name:"Weather Dashboard",
-        url:"https://mukey6.github.io/Weather-Dashboard/",
-        github:"https://github.com/mukey6/Weather-Dashboard",
-        image:"weather",
-        description:"Get weather forecast in desired city"
+        name:"Joy News",
+        url:"https://mukey6.github.io/react-portfolio/",
+        github:"https://github.com/Nahom-Assefa/Joy-News",
+        image:"joyNews",
+        description:"Get your daily positive news"
 
     },
     {
