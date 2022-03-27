@@ -38,6 +38,9 @@ const Projects = () => {
                     <i className="bi bi-github">Github</i>
                   </a>
                 </div>
+                <div className="card-bodu">
+                  <p className="w-75">{project.technology}</p>
+                </div>
               </div>
             );
           })}
